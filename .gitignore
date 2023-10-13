@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Website</h1>
+        <p>Your Catchy Slogan or Value Proposition</p>
+    </header>
+
+    <section class="features">
+        <div class="feature">
+            <i class="fas fa-check-circle"></i>
+            <h2>Feature 1</h2>
+            <p>Description of feature 1.</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-check-circle"></i>
+            <h2>Feature 2</h2>
+            <p>Description of feature 2.</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-check-circle"></i>
+            <h2>Feature 3</h2>
+            <p>Description of feature 3.</p>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Join Us Today!</h2>
+        <p>Don't miss out on our amazing services. Sign up now!</p>
+        <a href="signup.html" class="btn">Sign Up</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply some basic styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    padding: 60px;
+    background-color: #3498db;
+    color: #fff;
+}
+
+/* Style the features section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.feature {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the call-to-action section */
+.cta {
+    text-align: center;
+    padding: 60px;
+    background-color: #3498db;
+    color: #fff;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: #fff;
+}
